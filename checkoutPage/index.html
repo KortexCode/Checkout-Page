@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./styles/main.css" type="text/css">
     <title>Document</title>
   </head>
   <body>
     <div class="global-container">
-      <h2 class="title">Checkout</h2>
+      <h2 class="global-container__title">Checkout</h2>
       <!-- Firts-seccion -->
      
       <section class="product-container">
@@ -23,10 +27,13 @@
   
           <div class="product-container__product-detail"> 
             <article class="product-description">
-              <p>Vintage Backbag</p>
-              <span>$54.99</span>
-              <span>$94.99</span>
+              <p class="product-description__name">Vintage Backbag</p>
+              <div class="product-description__price-container">
+                <span class="product-description__discount">$54.99</span>
+                <span class="product-description__original-price">$94.99</span>
+              </div>    
             </article>
+
             <div class="box-quantity">
               <div>
                 <span>s</span>
@@ -37,7 +44,6 @@
               <div>
                 <span>s</span>
               </div>
-          
             </div>
           </div>
         </div>
@@ -49,12 +55,14 @@
   
           <div class="product-container__product-detail"> 
             <article class="product-description">
-              <p>Vintage Backbag</p>
-              <span>$54.99</span>
-              <span>$94.99</span>
+              <p class="product-description__name">Levi Shoes</p>
+              <div class="product-description__price-container">
+                <span class="product-description__discount">$74.99</span>
+                <span class="product-description__original-price">$124.99</span>
+              </div>  
             </article>
+
             <div class="box-quantity">
-              
               <div>
                 <span>s</span>
               </div>
@@ -63,20 +71,20 @@
               </div>
               <div>
                 <span>s</span>
-              </div>
-              
+              </div>  
             </div>
           </div>
         </div>
-        <div class="product-container__shipping">
+
+        <div class="product-container__account account--modified">
           <p>Shipping</p>
           <p>$19</p>
         </div>
-        <div class="product-container__total">
+
+        <div class="product-container__account">
           <p>Total</p>
           <p>$148.98</p>
         </div>
-  
       </section>
      
       
